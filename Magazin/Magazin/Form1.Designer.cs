@@ -39,6 +39,7 @@
             this.btnGoToAdd = new System.Windows.Forms.Button();
             this.btnGoToFillOrCancel = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -103,30 +104,44 @@
             // 
             // btnGoToAdd
             // 
-            this.btnGoToAdd.Location = new System.Drawing.Point(12, 70);
+            this.btnGoToAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btnGoToAdd.Location = new System.Drawing.Point(237, 125);
             this.btnGoToAdd.Name = "btnGoToAdd";
-            this.btnGoToAdd.Size = new System.Drawing.Size(162, 31);
+            this.btnGoToAdd.Size = new System.Drawing.Size(174, 31);
             this.btnGoToAdd.TabIndex = 1;
             this.btnGoToAdd.Text = "Добавить Учетную Запись";
-            this.btnGoToAdd.UseVisualStyleBackColor = true;
+            this.btnGoToAdd.UseVisualStyleBackColor = false;
             // 
             // btnGoToFillOrCancel
             // 
-            this.btnGoToFillOrCancel.Location = new System.Drawing.Point(13, 123);
+            this.btnGoToFillOrCancel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btnGoToFillOrCancel.Location = new System.Drawing.Point(237, 196);
             this.btnGoToFillOrCancel.Name = "btnGoToFillOrCancel";
             this.btnGoToFillOrCancel.Size = new System.Drawing.Size(174, 34);
             this.btnGoToFillOrCancel.TabIndex = 2;
             this.btnGoToFillOrCancel.Text = "Заполнить или Отменить Заказ";
-            this.btnGoToFillOrCancel.UseVisualStyleBackColor = true;
+            this.btnGoToFillOrCancel.UseVisualStyleBackColor = false;
             // 
             // btnExit
             // 
+            this.btnExit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnExit.Location = new System.Drawing.Point(559, 326);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 23);
             this.btnExit.TabIndex = 3;
             this.btnExit.Text = "Выйти";
-            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.UseVisualStyleBackColor = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label1.Location = new System.Drawing.Point(246, 72);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(165, 18);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Выберите Действие";
             // 
             // Навигация
             // 
@@ -136,6 +151,7 @@
             this.BackgroundImage = global::Magazin.Properties.Resources.pngwing_com__3_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(656, 361);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnGoToFillOrCancel);
             this.Controls.Add(this.btnGoToAdd);
@@ -164,6 +180,7 @@
         private System.Windows.Forms.Button btnGoToAdd;
         private System.Windows.Forms.Button btnGoToFillOrCancel;
         private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Label label1;
     }
 }
 
