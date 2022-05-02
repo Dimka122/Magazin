@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Magazin
 {
-    public partial class Навигация : Form
+    public partial class NewCustomer : Form
     {
-        public Навигация()
+        public NewCustomer()
         {
             InitializeComponent();
         }
