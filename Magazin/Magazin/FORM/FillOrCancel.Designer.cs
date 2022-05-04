@@ -65,6 +65,7 @@
             this.btnFindByOrderID.TabIndex = 2;
             this.btnFindByOrderID.Text = "Найти Заказ";
             this.btnFindByOrderID.UseVisualStyleBackColor = false;
+            this.btnFindByOrderID.Click += new System.EventHandler(this.btnFindByOrderID_Click);
             // 
             // label2
             // 
@@ -102,6 +103,7 @@
             this.btnCancelOrder.TabIndex = 6;
             this.btnCancelOrder.Text = "Отменить заказ";
             this.btnCancelOrder.UseVisualStyleBackColor = false;
+            this.btnCancelOrder.Click += new System.EventHandler(this.btnCancelOrder_Click);
             // 
             // btnFillOrder
             // 
@@ -112,6 +114,7 @@
             this.btnFillOrder.TabIndex = 7;
             this.btnFillOrder.Text = "Заполнить заказ";
             this.btnFillOrder.UseVisualStyleBackColor = false;
+            this.btnFillOrder.Click += new System.EventHandler(this.btnFillOrder_Click);
             // 
             // btnFinishUpdates
             // 
@@ -122,6 +125,7 @@
             this.btnFinishUpdates.TabIndex = 8;
             this.btnFinishUpdates.Text = "Готово";
             this.btnFinishUpdates.UseVisualStyleBackColor = false;
+            this.btnFinishUpdates.Click += new System.EventHandler(this.btnFinishUpdates_Click);
             // 
             // FillOrCancel
             // 

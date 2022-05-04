@@ -1,6 +1,6 @@
 ﻿namespace Magazin
 {
-    partial class Навигация
+    partial class Navigation
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -111,6 +111,7 @@
             this.btnGoToAdd.TabIndex = 1;
             this.btnGoToAdd.Text = "Добавить Учетную Запись";
             this.btnGoToAdd.UseVisualStyleBackColor = false;
+            this.btnGoToAdd.Click += new System.EventHandler(this.btnGoToAdd_Click);
             // 
             // btnGoToFillOrCancel
             // 
@@ -121,6 +122,7 @@
             this.btnGoToFillOrCancel.TabIndex = 2;
             this.btnGoToFillOrCancel.Text = "Заполнить или Отменить Заказ";
             this.btnGoToFillOrCancel.UseVisualStyleBackColor = false;
+            this.btnGoToFillOrCancel.Click += new System.EventHandler(this.btnGoToFillOrCancel_Click);
             // 
             // btnExit
             // 
@@ -131,6 +133,7 @@
             this.btnExit.TabIndex = 3;
             this.btnExit.Text = "Выйти";
             this.btnExit.UseVisualStyleBackColor = false;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // label1
             // 
@@ -143,7 +146,7 @@
             this.label1.TabIndex = 4;
             this.label1.Text = "Выберите Действие";
             // 
-            // Навигация
+            // Navigation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -158,7 +161,7 @@
             this.Controls.Add(this.menuStrip1);
             this.DoubleBuffered = true;
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Навигация";
+            this.Name = "Navigation";
             this.Text = "Velcome To Magazin !!!";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

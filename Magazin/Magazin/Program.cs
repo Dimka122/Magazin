@@ -16,7 +16,7 @@ namespace Magazin
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Навигация());
+            Application.Run(new Navigation());
         }
     }
 }

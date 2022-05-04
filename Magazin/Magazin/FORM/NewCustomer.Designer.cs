@@ -96,6 +96,7 @@
             this.button1.TabIndex = 5;
             this.button1.Text = "Создать Учетную Запись";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label4
             // 
@@ -154,6 +155,7 @@
             this.btnAddFinish.TabIndex = 11;
             this.btnAddFinish.Text = "Готово";
             this.btnAddFinish.UseVisualStyleBackColor = false;
+            this.btnAddFinish.Click += new System.EventHandler(this.btnAddFinish_Click);
             // 
             // btnPlaceOrder
             // 
@@ -164,6 +166,7 @@
             this.btnPlaceOrder.TabIndex = 12;
             this.btnPlaceOrder.Text = "Разместить заказ";
             this.btnPlaceOrder.UseVisualStyleBackColor = false;
+            this.btnPlaceOrder.Click += new System.EventHandler(this.btnPlaceOrder_Click);
             // 
             // btnAddAnotherAccount
             // 
@@ -174,6 +177,7 @@
             this.btnAddAnotherAccount.TabIndex = 13;
             this.btnAddAnotherAccount.Text = "Добавить другую учетную запись";
             this.btnAddAnotherAccount.UseVisualStyleBackColor = false;
+            this.btnAddAnotherAccount.Click += new System.EventHandler(this.btnAddAnotherAccount_Click);
             // 
             // NewCustomer
             // 

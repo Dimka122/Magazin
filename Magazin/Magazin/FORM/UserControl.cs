@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Magazin
+namespace Magazin.Model
 {
-    public partial class NewCustomer : Form
+    public partial class UserControl : Form
     {
-        public NewCustomer()
+        public UserControl()
         {
             InitializeComponent();
         }
